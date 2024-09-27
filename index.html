@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youvideos</title>
+</head>
+<body>
+    <h2>RECOMENDADOS</h2>
+
+   <main>
+        <iframe id="principal" height="315" src="https://www.youtube.com/embed/fzxvj8ipCIE?si=cLa98sXM53IorzIC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <div class="row">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fzxvj8ipCIE?si=cLa98sXM53IorzIC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ALZHF5UqnU4?si=1-oqbNP6eQ1tjM5e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/OEuYHlSMXMM?si=oMvZzg8zCXtaIu5c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+   </main>
+
+    <style>
+        body{
+            overflow: hidden;
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+
+            color: #fff;
+            background-color: #1c1c1c;
+        }
+        main{
+            display: flex;
+            height: 100vh;
+            align-content: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+       
+        iframe{
+            width: 200px;
+            height: 120px;
+            margin: 10px;
+
+            border-radius: 10px;
+            transition: .9s;
+        }
+        .row{
+            width: 20%;
+        }
+        #principal{
+            width: 70%;
+            height: 400px;
+        }
+    </style>
+</body>
+</html
